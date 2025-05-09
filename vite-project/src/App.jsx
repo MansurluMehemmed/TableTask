@@ -85,7 +85,7 @@ function App() {
 
   return (
     <div style={{ padding: "20px", width: "80%", margin: "auto" }}>
-      <Button onClick={addRowFunc} type="primary" style={{ marginBottom: 10 }}>
+      <Button onClick={addRowFunc} type="primary" style={{ marginBottom: 10,display:'flex', justifySelf:'center' }}>
         Add new row
       </Button>
 
